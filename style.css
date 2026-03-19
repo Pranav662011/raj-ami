@@ -1,0 +1,41 @@
+
+body {
+    text-align: center;
+    background: black;
+    color: white;
+    font-family: Arial;
+}
+
+#gameArea {
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    background: url("https://i.imgur.com/3e5pQ7T.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+#car {
+    width: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 175px;
+}
+
+#enemy {
+    width: 50px;
+    position: absolute;
+    top: -100px;
+}
+
+#controls {
+    margin-top: 10px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Dodge Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>🚗 Car Dodge Game</h2>
+<p>⬅️➡️ Arrow Keys | ⚡ Shift = Nitro</p>
+
+<div id="gameArea">
+    <img id="car" src="raj-removebg-preview.png">
+    <img id="enemy" src="ami-removebg-preview.png">
+</div>
+
+<h3 id="score">Score: 0</h3>
+
+<!-- Mobile Controls -->
+<div id="controls">
+    <button onclick="moveLeft()">⬅️</button>
+    <button onclick="nitro()">⚡</button>
+    <button onclick="moveRight()">➡️</button>
+</div>
+
+<!-- 🔊 Crash Sound -->
+<audio id="crashSound" src="rajini.mp3" preload="auto"></audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+</html>
